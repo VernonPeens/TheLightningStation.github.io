@@ -27,6 +27,7 @@ p {
     color: #64707b;
     font-size: 16px;
     font-weight: 300;
+    
 }
 
 h3 {
@@ -48,6 +49,18 @@ h3 {
     background-image: url("../img/bg-home.jpg");
   
 }
+
+@media (max-width: 767px) {
+    
+    #home-cover{
+       background-image: url("../img/bg-home_m.jpg");
+        background-size: 400px 500px;
+        margin: 0;
+        padding: 0;
+    }
+   
+    }
+    
 
 #home-content-box {
     width: 100%;
@@ -730,5 +743,38 @@ form .form-control {
     
     padding-top: 20px;
     padding-bottom: 20px;
+    
+}
+
+@media (max-width: 767px) {
+    
+   #myCarousel img{
+       
+       width: 767px; height: 100px; max-height: 100px; display: block; margin-left: auto; margin-right: auto; !important;
+    
+    
+    
+    
+}
+   
+    }
+
+#myCarousel img{
+    
+    
+    
+    width: auto; height: 600px; max-height: 600px; display: block; margin-left: auto; margin-right: auto; !important;
+    
+    
+    
+}
+
+#myCarousel1 img{
+    
+    
+    
+    width: auto; height: 600px; max-height: 600px; display: block; margin-left: auto; margin-right: auto; !important;
+    
+    
     
 }
